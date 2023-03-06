@@ -1,41 +1,43 @@
 {  
-   "codigoMensagem":1,
-   "mensagem":"Ok.",
-   "dados":[  
-      {  
-         "protocolo":20140100000091189,
-         "situacao":{  
-            "codigo":7,
-            "descricao":"Finalizada não avaliada"
-         },
-         "prazo":"10/06/2014 00:00:00",
-         "dataAbertura":"10/05/2014 11:22:05",
-         "reclamante":{  
-            "nome":"Nome do Reclamado",
-            "documento":00100200344
-         },
-         "acoes":[  
-            {  
-               "rel":"detalhar", "href":"{url-ambiente}/reclamacao/20140100000091189/detalhe",
-               "type":"application/json", "method":"GET"
+   "lista":{
+      "codigoMensagem":1,
+      "mensagem":"Ok.",
+      "dados":[  
+         {  
+            "protocolo":20140100000091189,
+            "situacao":{  
+               "codigo":7,
+               "descricao":"Finalizada não avaliada"
             },
-            {  
-               "rel":"complementar", "href":"{url-ambiente}/reclamacao/20140100000091189/complementar",
-               "type":"application/json", "method":"POST"
+            "prazo":"10/06/2014 00:00:00",
+            "dataAbertura":"10/05/2014 11:22:05",
+            "reclamante":{  
+               "nome":"Nome do Reclamado",
+               "documento":00100200344
             },
-            {  
-               "rel":"responder", "href":"{url-ambiente}/reclamacao/20140100000091189/responder",
-               "type":"application/json", "method":"POST"
-            },
-            {  
-               "rel":"analise_procon", "href":"{url-ambiente}/reclamacao/20140100000091189/recusar",
-               "type":"application/json", "method":"POST"
-            },
-            {  
-               "rel":"redirecionar", "href":"{url-ambiente}/reclamacao/20140100000091189/redirecionar",
-               "type":"application/json", "method":"POST"
-            }
-         ]
-      }
-   ]
+            "acoes":[  
+               {  
+                  "rel":"detalhar", "href":"{url-ambiente}/reclamacao/20140100000091189/detalhe",
+                  "type":"application/json", "method":"GET"
+               },
+               {  
+                  "rel":"complementar", "href":"{url-ambiente}/reclamacao/20140100000091189/complementar",
+                  "type":"application/json", "method":"POST"
+               },
+               {  
+                  "rel":"responder", "href":"{url-ambiente}/reclamacao/20140100000091189/responder",
+                  "type":"application/json", "method":"POST"
+               },
+               {  
+                  "rel":"analise_procon", "href":"{url-ambiente}/reclamacao/20140100000091189/recusar",
+                  "type":"application/json", "method":"POST"
+               },
+               {  
+                  "rel":"redirecionar", "href":"{url-ambiente}/reclamacao/20140100000091189/redirecionar",
+                  "type":"application/json", "method":"POST"
+               }
+            ]
+         }
+      ]
+   }
 }
